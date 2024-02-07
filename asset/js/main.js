@@ -47,7 +47,7 @@ function editClient(i) {
   myIndex = i;
   var updatebtn = document.createElement("button");
   updatebtn.innerHTML = "Update";
-  updatebtn.setAttribute("class", "btn btn-sm btn-success");
+  updatebtn.setAttribute("class", "btn btn-sm btn-danger");
   updatebtn.setAttribute("onclick", "updClient()");
   document.getElementById("saveupdate").innerHTML = "";
   document.getElementById("saveupdate").appendChild(updatebtn);
